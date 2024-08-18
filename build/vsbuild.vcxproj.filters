@@ -4,16 +4,25 @@
     <Filter Include="utils">
       <UniqueIdentifier>{dd807534-01d3-4180-b4a5-c7fff33bd4e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CH3">
+      <UniqueIdentifier>{c63d9ceb-4abc-45c8-b5c0-43836e63b8cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\utils\utils.cpp">
       <Filter>utils</Filter>
     </ClCompile>
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\CH3\complex.cpp">
+      <Filter>CH3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\utils\utils.h">
       <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CH3\complex.h">
+      <Filter>CH3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
